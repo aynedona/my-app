@@ -1,27 +1,42 @@
-# MyApp
+# audsat
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Aplicativo Web para gerenciamento de Posts e Comentários
 
-## Development server
+## recursos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Visualização e gerenciamento dos posts;
+Visualização dos comentários dos posts;
 
-## Code scaffolding
+## bibliotecas e frameworks
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ - Angular 16.0.0 com animations e router
+ - Angular Material 16.0.0
+ - Bootstrap 5
+ - RxJS 7.8.0
 
-## Build
+## requisitos e instalação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ - NodeJS 16.13 ou superior
+ - Angular (com CLI) 16.0.0
 
-## Running unit tests
+### Node JS
+Para rodar o projeto é necessário possuir o node versão 16.13.0 ou superior, para instalá-lo, basta seguir as instruções de acordo com o seu sistema operacional através do site: https://nodejs.org/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Após a instalação, você pode verificar o funcionamento do Node com o comando:
 
-## Running end-to-end tests
+```bash
+node -v
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+O NPM é instalado junto ao node js, e seu funcionamento pode ser verificado através do comando:
 
-## Further help
+```bash
+npm -v
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### angular
+Para instalar o Angular, após a instalação do node, basta siga os passos:
+
+```bash
+npm install -g @angular/cli
+```
